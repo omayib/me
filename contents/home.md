@@ -1,16 +1,16 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![omayib](https://img.shields.io/badge/omayib-github-blue?logo=github)](https://github.com/omayib)
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+Assistant Professor at AMIKOM & Software Engineer
 
 #### Email
-sli[at]cumt.edu.cn
+arif.akbarul@amikom.ac.id
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+M.Eng., Magister Teknologi Informasi, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada, 2011-2015.\
+S.Si., Elektornika dan Instrumentasi, Departemen Ilmu Komputer dan Elektronika, Universitas Gadjah Mada, 2007-2011.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+Deep Learning for Music
 
