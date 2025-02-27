@@ -1,12 +1,19 @@
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q.Niu (2024). Label Noise-Robust Learning for Microseismic Arrival Time Picking. <strong>In Revision.</strong> [[Code]](https://github.com/senli1073/LNRL)
+- Penerapan Logits Processing Pada Teknologi Transformer untuk Penciptaan Melodi Berbentuk Notasi ABC (waiting for publish)
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+- Implementation of SVM Algorithm to Predict Song Popularity based on Sentiment Analysis of Lyrics (waiting for publish)
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- Comparative Analysis of ELMo and Bi-LSTM-CRF Algorithms for Named Entity Recognition on Multilingual Corpus Annotation (in review)
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+- A. Amrullah, B. Wiratama and A. <strong>A. Huda</strong>, "Performance Analysis of Deep Neural Network based Gamelan Musical Instruments Separation," 2023 6th International Conference on Information and Communications Technology (ICOIACT), Yogyakarta, Indonesia, 2023, pp. 338-342, doi: https://doi.org/10.1109/ICOIACT59844.2023.10455860
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
+- W. M. P. Dhuhita, M. F. A. Farid, A. Yaqin, H. Haryoko and  <strong>A. A. Huda</strong>, "Gold Price Prediction Based On Yahoo Finance Data Using Lstm Algorithm," 2023 International Conference on Informatics, Multimedia, Cyber and Informations System (ICIMCIS), Jakarta Selatan, Indonesia, 2023, pp. 420-425, doi: https://doi.org/10.1109/ICIMCIS60089.2023.10349035.
 
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
+- Yusuf, R., & <strong>Huda, A. A.</strong> (2023). Deteksi Emosi Wajah Menggunakan Metode Backpropagation. Journal Automation Computer Information System, 3(2), 103–114. https://doi.org/10.47134/jacis.v3i2.60
 
+- Yudistira, A., Hadinegoro, A., Ahmad, N. ., & <strong>Akbarul Huda, A. </strong> (2023). PENGENALAN WAJAH UNTUK MEMPERCEPAT PROSES PEMILIHAN UMUM: STUDI KASUS IMPLEMENTASI METODE HOG DAN CNN PADA SISTEM EVOTING. Information System Journal, 6(01), 11-18. https://doi.org/10.24076/infosjournal.2023v6i01.1158
+
+- <strong>Huda, A.</strong>, Fajarudin, R., & Hadinegoro, A. (2022). Sistem Rekomendasi Content-based Filtering Menggunakan TF-IDF Vector Similarity Untuk Rekomendasi Artikel Berita. Building of Informatics, Technology and Science (BITS), 4(3), 1679−1686. https://doi.org/10.47065/bits.v4i3.2511
+
+- <strong> Huda, A. A.</strong>, Setiaji, B., & Rosyid Hidayat, F. (2022). Implementasi Gray Level Co-Occurrence Matrix (GLCM) Untuk Klasifikasi Penyakit Daun Padi. Pseudocode, 9(1), 33–38. https://doi.org/10.33369/pseudocode.9.1.33-38
+
+- <strong> Huda, A.</strong>, & Farida, L. (2021). Kajian Sistem Rekomendasi Pada Keanekaragaman Podcast. Jutisi : Jurnal Ilmiah Teknik Informatika Dan Sistem Informasi, 10(3), 603-610. doi:http://dx.doi.org/10.35889/jutisi.v10i3.730
