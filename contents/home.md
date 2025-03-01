@@ -1,6 +1,8 @@
 
 
-[![omayib](https://img.shields.io/badge/omayib-github-blue?logo=github)](https://github.com/omayib)
+<a href="https://scholar.google.co.id/citations?user=sg5oc9YAAAAJ&hl=en" target="_blank">![Static Badge](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=fff)</a>
+<a href="https://github.com/omayib" target="_blank">![Static Badge](https://img.shields.io/badge/GitHub-%2523121011?style=for-the-badge&logo=github)</a>
+<a href="https://www.linkedin.com/in/akbarul/" target="_blank">![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)</a>
 
 Assistant Professor at AMIKOM & Software Engineer
 
