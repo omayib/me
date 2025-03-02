@@ -1,4 +1,4 @@
-- Penerapan Logits Processing Pada Teknologi Transformer untuk Penciptaan Melodi Berbentuk Notasi ABC (waiting for publish)
+- Dhiaulhaq, M., Huda, A., & Hadinegoro, A. (2025). Penerapan Logits Processing Pada Teknologi Transformer untuk Penciptaan Melodi Berbentuk Notasi ABC dalam Pengembangan Game Indie. Building of Informatics, Technology and Science (BITS), 6(4), 2291-2230. https://doi.org/10.47065/bits.v6i4.6642
 
 - Implementation of SVM Algorithm to Predict Song Popularity based on Sentiment Analysis of Lyrics (waiting for publish)
 
