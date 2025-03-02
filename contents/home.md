@@ -5,7 +5,7 @@
 <a href="https://akbarul.medium.com" target="_blank">![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)</a>
 <a href="https://www.linkedin.com/in/akbarul/" target="_blank">![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)</a>
 
-Assistant Professor at AMIKOM & Software Engineer
+Assistant Professor at AMIKOM & AI Engineer
 
 #### Email
 arif.akbarul@amikom.ac.id
