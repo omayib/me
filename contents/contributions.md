@@ -1,12 +1,16 @@
 ## Software & Tools
-- <a href="https://craftingbeat.com" target="_blank">www.raftingbeat.com</a>
-    - Generating signature music for game  by AI, help the developer stay focus on their code.
+- <a href="https://craftingbeat.com" target="_blank">www.craftingbeat.com</a>
+    - An AI-powered system that creates signature game music, allowing developers to focus solely on coding without worrying about sound design.
+    - I built a state-of-the-art music engine from the ground up using Python, distributed it via PyPi, and integrated advanced pre-trained models like Transformer and BERT.
 - <a href="https://www.hizara.chat" target="_blank">www.hizara.chat</a>
     - A Retrieval Augmented Generation (RAG) plugin that streamlines website navigation with effortless, chat-style functionality. Instead of forcing users to click through multiple pages, Hizara instantly pulls relevant answers from your content library. 
+    - I engineered the Zara-chat WordPress plugin from scratch in PHP, featuring configurable options that allow integration of powerful models such as BERT and Transformer through APIs.
 - <a href="https://www.launchinpad.com" target="_blank">www.launchinpad.com</a>
-    - Collecting and tracking the student's final project. It's powerful for deep profiling students and solving any gap issues between campus and tech. industries.
+    - A platform that collects and tracks students’ final projects, offering deep insights into their work and bridging the gap between academic learning and industry demands.
+    - As the product owner, I initiated the project and assembled a skilled team to implement advanced technical solutions.
 - <a href="https://www.informatika.amikom.ac.id" target="_blank">www.informatika.amikom.ac.id</a>
-    - Understanding web visitors behaviour by tracking their interaction on the web, and make better engagement.
+    - Implementing a system to analyze website visitor behavior by tracking their interactions, which helps in creating better engagement strategies.
+    - I revamped an outdated website using WordPress, designing an engaging landing page and fully integrating Google Analytics to gain comprehensive insights into user behavior.
 
 ## Speakers
 - Speakers @ Python Meetup Community. Python for Music - When Python meet Hobby. 2024. Yogyakarta
