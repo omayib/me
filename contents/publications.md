@@ -1,6 +1,6 @@
 - Dhiaulhaq, M., Huda, A., & Hadinegoro, A. (2025). Penerapan Logits Processing Pada Teknologi Transformer untuk Penciptaan Melodi Berbentuk Notasi ABC dalam Pengembangan Game Indie. Building of Informatics, Technology and Science (BITS), 6(4), 2291-2230. <a href="https://doi.org/10.47065/bits.v6i4.6642" target="_blank">  (OPEN)</a>
 
-- Implementation of SVM Algorithm to Predict Song Popularity based on Sentiment Analysis of Lyrics (waiting for publish)
+- Q. L. A. Lubis and <strong>A. A. Huda</strong>, “Implementation of SVM Algorithm to Predict Song Popularity based on Sentiment Analysis of Lyrics”, JAIC, vol. 9, no. 2, pp. 265–272, Mar. 2025.DOI: <a href="https://doi.org/10.30871/jaic.v9i2.8978" target="_blank"> (OPEN) </a>.
 
 - Comparative Analysis of ELMo and Bi-LSTM-CRF Algorithms for Named Entity Recognition on Multilingual Corpus Annotation (in review)
 
