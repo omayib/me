@@ -7,7 +7,7 @@
 ### Founder of <a href="https://omayib.github.io/hizara/" target="_blank">Hizara Chat Agent</a>
 - A Retrieval Augmented Generation (RAG) plugin that streamlines website navigation with effortless, chat-style functionality. Instead of forcing users to click through multiple pages, Hizara instantly pulls relevant answers from your content library. 
 - As AI Engineer, I engineered the Zara-chat WordPress plugin from scratch in PHP, featuring configurable options that allow integration of powerful models such as BERT and Transformer through APIs.
-### Initiator of <a href="https://www.launchinpad.amikom.ac.id" target="_blank">Launchinpad Project Collaborator</a>
+### Initiator of <a href="https://launchinpad.amikom.ac.id/" target="_blank">Launchinpad Project Collaborator</a>
 - A platform that collects and tracks students’ final projects, offering deep insights into their work and bridging the gap between academic learning and industry demands.
 - As the product owner, I initiated the project and assembled a skilled team to implement advanced technical solutions.
 ### Initiatior of <a href="https://www.informatika.amikom.ac.id" target="_blank">www.informatika.amikom.ac.id</a>
