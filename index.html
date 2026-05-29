@@ -244,46 +244,70 @@
     </footer>
 <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Fetch the uploaded XML file
-            fetch('https://medium.com/feed/@akbarul')
-                .then(response => response.text())
-                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            const mediumFeedUrl = 'https://medium.com/feed/@akbarul';
+            // Use rss2json proxy service to circumvent CORS limitations
+            const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(mediumFeedUrl)}`;
+
+            fetch(proxyUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
                 .then(data => {
-                    const items = data.querySelectorAll("item");
-                    let htmlContent = '<ul class="list-unstyled">';
+                    if (data.status !== 'ok' || !data.items || data.items.length === 0) {
+                        throw new Error('Invalid feed data structure');
+                    }
+
+                    let htmlContent = '<div class="row">';
                     
-                    // Iterate through the top 3 items in the RSS feed
-                    for(let i = 0; i < Math.min(items.length, 3); i++) {
-                        const el = items[i];
-                        const title = el.querySelector("title").textContent.replace("<![CDATA[", "").replace("]]>", "");
-                        const link = el.querySelector("link").textContent;
+                    // Display the top 3 latest items
+                    const limit = Math.min(data.items.length, 3);
+                    for (let i = 0; i < limit; i++) {
+                        const item = data.items[i];
                         
-                        // Format the date nicely
-                        const pubDateRaw = el.querySelector("pubDate").textContent;
-                        const pubDate = new Date(pubDateRaw).toLocaleDateString('en-US', {
+                        // Parse and format the date natively 
+                        const pubDate = new Date(item.pubDate.replace(/-/g, "/")).toLocaleDateString('en-US', {
                             year: 'numeric', month: 'long', day: 'numeric'
                         });
-                        
+
+                        // Extract a small snippet from description text if needed
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = item.description;
+                        const plainTextSnippet = tempDiv.textContent || tempDiv.innerText || "";
+                        const shortDescription = plainTextSnippet.substring(0, 160) + '...';
+
                         htmlContent += `
-                            <li class="mb-4">
-                                <a href="${link}" target="_blank" class="text-decoration-none fs-5 fw-bold text-primary">
-                                    ${title}
-                                </a>
-                                <div class="text-muted small mt-1">
-                                    <i class="bi bi-calendar-event"></i> ${pubDate}
+                            <div class="col-12 mb-4">
+                                <div class="card h-100 border-0 bg-transparent">
+                                    <div class="card-body p-0">
+                                        <h4 class="card-title mb-1">
+                                            <a href="${item.link}" target="_blank" class="text-decoration-none fw-bold" style="color: #292b2c;">
+                                                ${item.title}
+                                            </a>
+                                        </h4>
+                                        <div class="text-muted small mb-2">
+                                            <i class="bi bi-calendar-event"></i> ${pubDate} &middot; by ${item.author || 'Arif Akbarul Huda'}
+                                        </div>
+                                        <p class="card-text text-secondary small">${shortDescription}</p>
+                                        <a href="${item.link}" target="_blank" class="btn btn-sm btn-outline-primary mt-1">
+                                            Read on Medium <i class="bi bi-arrow-up-right-short"></i>
+                                        </a>
+                                    </div>
                                 </div>
-                            </li>
+                            </div>
                         `;
                     }
                     
-                    htmlContent += '</ul>';
-                    
-                    // Inject the content into the new section
-                    document.getElementById('rss-feed-content').innerHTML = htmlContent;
+                    htmlContent += '</div>';
+                    document.getElementById('latest-update-content').innerHTML = htmlContent;
                 })
                 .catch(err => {
                     console.error("Error fetching RSS feed:", err);
-                    document.getElementById('rss-feed-content').innerHTML = '<p class="text-danger">Failed to load updates.</p>';
+                    document.getElementById('latest-update-content').innerHTML = `
+                        <div class="text-danger small">
+                            <i class="bi bi-exclamation-triangle"></i> Failed to load dynamic updates. 
+                            You can visit my <a href="https://medium.com/@akbarul" target="_blank">Medium Profile directly</a>.
+                        </div>`;
                 });
         });
     </script>
