@@ -4,7 +4,7 @@
 ### Founder of <a href="https://craftingbeat.com" target="_blank">www.craftingbeat.com</a>
 - An AI-powered system that creates signature game music, allowing developers to focus solely on coding without worrying about sound design.
 - As AI Engineer, I built a state-of-the-art music engine from the ground up using Python, distributed it via PyPi, and integrated advanced pre-trained models like Transformer and BERT.
-### Founder of <a href="https://www.hizara.chat" target="_blank">www.hizara.chat</a>
+### Founder of <a href="https://omayib.github.io/hizara/" target="_blank">Hizara Chat Agent</a>
 - A Retrieval Augmented Generation (RAG) plugin that streamlines website navigation with effortless, chat-style functionality. Instead of forcing users to click through multiple pages, Hizara instantly pulls relevant answers from your content library. 
 - As AI Engineer, I engineered the Zara-chat WordPress plugin from scratch in PHP, featuring configurable options that allow integration of powerful models such as BERT and Transformer through APIs.
 ### Initiator of <a href="https://www.launchinpad.com" target="_blank">www.launchinpad.com</a>
