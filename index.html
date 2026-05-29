@@ -126,6 +126,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#works">WORKS</a>
+                    </li>            
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#latest-update">UPDATES</a>
                     </li>
 
                 </ul>
@@ -216,6 +219,18 @@
     </section>
     <!-- Works -->
 
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="latest-update">
+        <div class="container px-5">
+            <header>
+                <h2 id="latest-update-subtitle"><i class="bi bi-rss"></i> LATEST UPDATE</h2>
+            </header>
+            <hr>
+            <div class="main-body" id="rss-feed-content">
+                <p>Loading latest updates...</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
@@ -227,7 +242,51 @@
             </div>
         </div>
     </footer>
-
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch the uploaded XML file
+            fetch('akbarul.xml')
+                .then(response => response.text())
+                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                .then(data => {
+                    const items = data.querySelectorAll("item");
+                    let htmlContent = '<ul class="list-unstyled">';
+                    
+                    // Iterate through the top 3 items in the RSS feed
+                    for(let i = 0; i < Math.min(items.length, 3); i++) {
+                        const el = items[i];
+                        const title = el.querySelector("title").textContent.replace("<![CDATA[", "").replace("]]>", "");
+                        const link = el.querySelector("link").textContent;
+                        
+                        // Format the date nicely
+                        const pubDateRaw = el.querySelector("pubDate").textContent;
+                        const pubDate = new Date(pubDateRaw).toLocaleDateString('en-US', {
+                            year: 'numeric', month: 'long', day: 'numeric'
+                        });
+                        
+                        htmlContent += `
+                            <li class="mb-4">
+                                <a href="${link}" target="_blank" class="text-decoration-none fs-5 fw-bold text-primary">
+                                    ${title}
+                                </a>
+                                <div class="text-muted small mt-1">
+                                    <i class="bi bi-calendar-event"></i> ${pubDate}
+                                </div>
+                            </li>
+                        `;
+                    }
+                    
+                    htmlContent += '</ul>';
+                    
+                    // Inject the content into the new section
+                    document.getElementById('rss-feed-content').innerHTML = htmlContent;
+                })
+                .catch(err => {
+                    console.error("Error fetching RSS feed:", err);
+                    document.getElementById('rss-feed-content').innerHTML = '<p class="text-danger">Failed to load updates.</p>';
+                });
+        });
+    </script>
 </body>
 
 </html>
