@@ -1,9 +1,9 @@
-- Bachelor of Informatics Study Program Universitas Amikom Yogyakarta (2021-Present) : Lecture
+- Universitas Amikom Yogyakarta (2021-Present) : Lecture
     - Subject in Artificial Intelligence
     - Subject in Mixed Reality
     - Subject in Digipreneurship
 
-- Bachelor of Informatics Study Program Universitas Amikom Yogyakarta (2021-Present) : Secretary
+- Universitas Amikom Yogyakarta (2021-2025) : Secretary
     - Build a stronger organization with data-driven insights.
     - Maintain team momentum using OKRs.
     - Digitalize various business processes using Google Script.
