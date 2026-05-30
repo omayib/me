@@ -1,6 +1,13 @@
 ## Software & Tools
 <hr>
 <div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/agentic-ai.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">Personal AI-Agentic Workflow</h3>
+        <p>A personal productivity AI system utilizing a hybrid architecture. It routes heavy cognitive tasks to DeepSeek-V4-Flash via API, while offloading private, localized tasks (POS monitoring, FTP deployment, GitHub hooks) to lightweight models (Llama 3, Qwen 3.5, Gemma 4) running locally via Ollama.</p>
+    </div>
+</div>
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
     <img src="static/assets/img/beatcraft.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
     <div>
         <h3 class="mt-0 h5">Founder of <a href="https://craftingbeat.com" target="_blank">www.craftingbeat.com</a></h3>
