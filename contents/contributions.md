@@ -1,20 +1,58 @@
 ## Software & Tools
 <hr>
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/beatcraft.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">Founder of <a href="https://craftingbeat.com" target="_blank">www.craftingbeat.com</a></h3>
+        <ul>
+            <li>An AI-powered system that creates signature game music, allowing developers to focus solely on coding without worrying about sound design.</li>
+            <li>As AI Engineer, I built a state-of-the-art music engine from the ground up using Python, distributed it via PyPi, and integrated advanced pre-trained models like Transformer and BERT.</li>
+        </ul>
+    </div>
+</div>
 
-### Founder of <a href="https://craftingbeat.com" target="_blank">www.craftingbeat.com</a>
-- An AI-powered system that creates signature game music, allowing developers to focus solely on coding without worrying about sound design.
-- As AI Engineer, I built a state-of-the-art music engine from the ground up using Python, distributed it via PyPi, and integrated advanced pre-trained models like Transformer and BERT.
-### Founder of <a href="https://omayib.github.io/hizara/" target="_blank">Hizara Chat Agent</a>
-- A Retrieval Augmented Generation (RAG) plugin that streamlines website navigation with effortless, chat-style functionality. Instead of forcing users to click through multiple pages, Hizara instantly pulls relevant answers from your content library. 
-- As AI Engineer, I engineered the Zara-chat WordPress plugin from scratch in PHP, featuring configurable options that allow integration of powerful models such as BERT and Transformer through APIs.
-### Initiator of <a href="https://launchinpad.amikom.ac.id/" target="_blank">Launchinpad Project Collaborator</a>
-- A platform that collects and tracks students’ final projects, offering deep insights into their work and bridging the gap between academic learning and industry demands.
-- As the product owner, I initiated the project and assembled a skilled team to implement advanced technical solutions.
-### Initiatior of <a href="https://www.informatika.amikom.ac.id" target="_blank">www.informatika.amikom.ac.id</a>
-- Implementing a system to analyze website visitor behavior by tracking their interactions, which helps in creating better engagement strategies.
-- I revamped an outdated website using WordPress, designing an engaging landing page and fully integrating Google Analytics to gain comprehensive insights into user behavior.
-### Other add ons and extension
- - I have driven digital transformation across various business processes using Google Script, HTML5, and Google Sheets. For example, I developed personalized email systems for both students and faculty, streamlined multi-stakeholder approval and grade claim processes for MBKM conversions, implemented a QR code-based document approval system, created a digital logbook for thesis supervision, and engineered a Google Sheets extension to optimize the recording of semester course plans.
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/hizarainfloating.webp" alt="Hizara Chat Agent" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">Founder of <a href="https://omayib.github.io/hizara/" target="_blank">Hizara Chat Agent</a></h3>
+        <ul>
+            <li>A Retrieval Augmented Generation (RAG) plugin that streamlines website navigation with effortless, chat-style functionality. Instead of forcing users to click through multiple pages, Hizara instantly pulls relevant answers from your content library.</li>
+            <li>As AI Engineer, I engineered the Zara-chat WordPress plugin from scratch in PHP, featuring configurable options that allow integration of powerful models such as BERT and Transformer through APIs.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/launchinpad.webp" alt="Launchinpad" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">Initiator of <a href="https://launchinpad.amikom.ac.id/" target="_blank">Launchinpad Project Collaborator</a></h3>
+        <ul>
+            <li>A platform that collects and tracks students’ final projects, offering deep insights into their work and bridging the gap between academic learning and industry demands.</li>
+            <li>As the product owner, I initiated the project and assembled a skilled team to implement advanced technical solutions.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/web-informatika-analitik.gif" alt="Informatika Amikom" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">Initiator of <a href="https://www.informatika.amikom.ac.id" target="_blank">www.informatika.amikom.ac.id</a></h3>
+        <ul>
+            <li>Implementing a system to analyze website visitor behavior by tracking their interactions, which helps in creating better engagement strategies.</li>
+            <li>I revamped an outdated website using WordPress, designing an engaging landing page and fully integrating Google Analytics to gain comprehensive insights into user behavior.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/google-script.svg" alt="Add-ons" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">Other add ons and extension</h3>
+        <ul>
+            <li>I have driven digital transformation across various business processes using Google Script, HTML5, and Google Sheets. For example, I developed personalized email systems for both students and faculty, streamlined multi-stakeholder approval and grade claim processes for MBKM conversions, implemented a QR code-based document approval system, created a digital logbook for thesis supervision, and engineered a Google Sheets extension to optimize the recording of semester course plans.</li>
+        </ul>
+    </div>
+</div>
 
 ## Speakers
 <hr>
