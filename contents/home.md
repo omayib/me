@@ -13,8 +13,8 @@ omayib@gmail.com
 
 #### Education
 
-- Ph.D., On Going, Doktoral Ilmu Komputer, Departemen Ilmu Komputer dan Elektronika, Uniersitas Gadjah Mada, 2025 \
-- M.Eng., Magister Teknologi Informasi, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada, 2011-2015.\
+- Ph.D., On Going, Doktoral Ilmu Komputer, Departemen Ilmu Komputer dan Elektronika, Uniersitas Gadjah Mada, 2025
+- M.Eng., Magister Teknologi Informasi, Departemen Teknik Elektro dan Teknologi Informasi, Universitas Gadjah Mada, 2011-2015.
 - S.Si., Elektornika dan Instrumentasi, Departemen Ilmu Komputer dan Elektronika, Universitas Gadjah Mada, 2007-2011.
 
 #### Research Interests

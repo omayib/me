@@ -44,16 +44,28 @@
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
-    font-size: 2.3rem;
-    line-height: 4rem;
+    font-size: 1.6rem;       /* Shrunk for mobile */
+    line-height: 2.2rem;     /* Tighter spacing */
 }
 
 section .main-body{
-    font-size: 1.3rem;
-    font-weight: 200;
-    line-height: 2.4rem;
+    font-size: 1rem;         /* Standard compact mobile size */
+    font-weight: 400;        /* Slightly heavier weight so small text stays readable */
+    line-height: 1.6rem;     /* Balanced spacing */
 }
 
+/* Desktop scale-up (Restores your original look on screens larger than 992px) */
+@media screen and (min-width: 992px) {
+    section header h2 {
+        font-size: 2.3rem;
+        line-height: 4rem;
+    }
+    section .main-body {
+        font-size: 1.3rem;
+        font-weight: 200;
+        line-height: 2.4rem;
+    }
+}
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
