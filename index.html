@@ -33,6 +33,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
+    <link type="text/css" href="static/css/cv-print.css" rel="stylesheet" />
 
     <!-- Bootstrap core JS-->
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
@@ -80,6 +81,7 @@
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
+    <script type="text/javascript" src="static/js/cv.js"></script>
 
     <script type="application/ld+json">
         {
@@ -133,13 +135,18 @@
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#latest-update">UPDATES</a>
                     </li>
+                    <li class="nav-item">
+                        <button id="cv-toggle-btn" class="btn btn-sm btn-primary ms-lg-3" title="Convert to CV format">
+                            <i class="bi bi-file-pdf"></i> CV
+                        </button>
+                    </li>
 
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Top Section -->
+    <div id="main-content-wrapper">
     <section class="top-section" style="background-image: url('static/assets/img/background.jpg');">
         <div class="top-section-content">
             <div class="container px-3 px-md-5">
@@ -248,6 +255,8 @@
         </div>
     </section>
     <!-- Latest Update-->
+
+    </div>
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
