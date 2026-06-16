@@ -79,7 +79,6 @@ body.cv-mode #avatar {
     top: auto !important;
     max-width: none !important;
     margin: 0 0 0.2in 0 !important;
-    float: none !important;
     text-align: center;
 }
 
@@ -114,7 +113,7 @@ body.cv-mode section hr {
 body.cv-mode .top-section {
     padding: 0.3in 0 !important;
     height: auto !important;
-    background: transparent !important;
+    background: transparent url('/static/assets/img/background.jpg') no-repeat center / cover !important;
 }
 
 body.cv-mode .top-section:before {
@@ -123,9 +122,9 @@ body.cv-mode .top-section:before {
 
 body.cv-mode .top-section h1,
 body.cv-mode .top-section h2 {
-    font-size: 18pt !important;
+    font-size: 12pt !important;
     line-height: 1.2 !important;
-    margin: 0 !important;
+    margin: 10px !important;
 }
 
 body.cv-mode .top-section-content {

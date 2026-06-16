@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Optional: Update page title
         const originalTitle = document.title;
         document.title = 'CV - ' + originalTitle.split(' – ')[0];
+        document.getElementById('page-top-title').textContent = 'Curriculum Vitae';
+        window.print();
     }
     
     function disableCVMode() {
