@@ -1,6 +1,13 @@
 ## Software & Tools
 <hr>
 <div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/llm-chiptune.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5">LLM-Chiptune</h3>
+        <p>Fine-tuning MIDI-LLM (Llama 3.2 1B extended for MIDI) with LoRA to generate chiptune-style game music from text prompts. Training metrics were modest, but objective musical-feature comparisons and direct listening confirmed real stylistic transfer. The model released on <a href="https://huggingface.co/omayib/Llama-3.2-1B-Chiptune-MIDI" target="_blank">Huggingface.</a></p>
+    </div>
+</div>
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
     <img src="static/assets/img/agentic-ai.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
     <div>
         <h3 class="mt-0 h5">Personal AI-Agentic Workflow</h3>
