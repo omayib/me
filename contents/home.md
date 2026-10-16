@@ -5,7 +5,7 @@
 <a href="https://akbarul.medium.com" target="_blank">![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)</a>
 <a href="https://www.linkedin.com/in/akbarul/" target="_blank">![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)</a>
 
-AI/ML Engineer & Assistant Professor at AMIKOM
+Music AI & AI Automation Expert · Assistant Professor at AMIKOM · Startup Mentor
 
 #### Email
 arif.akbarul@amikom.ac.id\
@@ -18,5 +18,5 @@ omayib@gmail.com
 - S.Si., Elektornika dan Instrumentasi, Departemen Ilmu Komputer dan Elektronika, Universitas Gadjah Mada, 2007-2011.
 
 #### Research Interests
-Deep Learning for Music
+Deep Learning for Music · Generative Music for Games · Agentic AI Automation
 

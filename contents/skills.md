@@ -1,17 +1,19 @@
-#### Machine Learning & Deep Learning
-- Proficient in **Python** for AI/ML development, including packaging and distributing production models (published a Transformer/BERT-based music engine on PyPI).
-- Hands-on with **PyTorch** and **TensorFlow/Keras** for building, training, and fine-tuning deep learning architectures.
-- Experience integrating pre-trained Transformer and BERT-family models into production pipelines.
-- Applied optimization techniques (hyperparameter tuning, regularization, transfer learning) to improve model performance and training efficiency.
+#### Machine Learning for Music
+- Fine-tuning symbolic music LLMs: adapted MIDI-LLM (Llama 3.2 1B) with **LoRA** to generate chiptune game music from text prompts, validated with objective musical-feature comparison and listening tests ([released on Hugging Face](https://huggingface.co/omayib/Llama-3.2-1B-Chiptune-MIDI)).
+- Built and shipped a Transformer/BERT-based **game music engine** in Python, distributed on PyPI, powering [Crafting Beat](https://craftingbeat.com).
+- Research across the music AI stack: melody generation in ABC notation with logits processing, deep-learning gamelan source separation, song popularity prediction from lyrics, and podcast recommendation.
+- Funded research on a **multi-agent generative adaptive music platform** for game production (Kemdiktisaintek, 2024); doctoral research in Deep Learning for Music at Universitas Gadjah Mada.
+- Practising musician — producer, guitarist, and band director — bringing a musician's ear to model evaluation.
 
-#### Statistical Analysis & Mathematical Modeling
-- Doctoral candidate in Computer Science (Universitas Gadjah Mada), grounding applied ML work in rigorous statistical theory and mathematical modeling.
-- Applied statistical analysis in funded research, including Eye Tracking UX validation (Visual Attention Metrics vs. Questionnaire-Based UX Assessments) and data-driven organizational decision-making.
+#### AI Automation & Agentic Workflows
+- Designed a hybrid **multi-model agentic workflow** that routes heavy reasoning to cloud LLMs (DeepSeek) and private tasks to local models (Llama 3, Qwen, Gemma) via Ollama — POS monitoring, FTP deployment, GitHub hooks.
+- Built **RAG** products ([Hizara Chat Agent](https://omayib.github.io/hizara/)) that turn content libraries into chat-style navigation.
+- Digitalized and automated university business processes with Google Apps Script, Google Sheets, and AI: personalized mailers, multi-stakeholder approvals, QR-code document approval, digital thesis logbooks.
 
-#### Data Engineering & Evaluation
-- Data preprocessing and feature engineering with **scikit-learn** and **statsmodels** across research and production projects.
-- Design and evaluation of ML models using standard evaluation metrics to validate performance before deployment.
-- Digitalized and automated business processes using data pipelines and AI-driven decision support.
+#### Business & Product Leadership
+- Co-founder & CTO of Hepicar: led 3–10 engineers with Scrum and closed a **3 billion rupiah** investment.
+- Director of Incubation at ABP Startup Incubator since 2018: coached startups on technology and fundraising, with **10+ startups funded** at 200–500 million rupiah each.
+- Ran a university department with OKRs and data-driven decision-making; teaches Digipreneurship and mentors cooperatives on SOP/SOM for sustainable business.
 
 #### Tools & Ecosystem
-Python &middot; PyTorch &middot; TensorFlow/Keras &middot; Hugging Face Transformers &middot; scikit-learn &middot; statsmodels &middot; BERT
+Python &middot; PyTorch &middot; TensorFlow/Keras &middot; Hugging Face Transformers &middot; LoRA/PEFT &middot; MIDI &middot; Ollama &middot; RAG &middot; Google Apps Script &middot; scikit-learn
