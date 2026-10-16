@@ -8,6 +8,13 @@
     </div>
 </div>
 <div class="d-flex flex-column flex-md-row align-items-start mb-4">
+    <img src="static/assets/img/tralala-trilili.webp" alt="Tralala-Trilili" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
+    <div>
+        <h3 class="mt-0 h5"><a href="https://omayib.github.io/tralala-trilili/" target="_blank">Tralala-Trilili</a></h3>
+        <p>A web app that predicts the popularity of Indonesian song lyrics (low, moderate, very popular) and highlights the words driving each prediction. Built on 1,260 songs from daily Spotify Indonesia charts (scraped from Kworb) paired with LRCLIB lyrics. Seven methods were benchmarked under a leak-free protocol, from SVM + SMOTE to fine-tuned IndoBERT; production runs TF-IDF + class-weighted Logistic Regression (0.45 macro-F1, ~2× the baseline). An MLOps pipeline on GitHub Actions retrains the model daily and releases it to <a href="https://huggingface.co/omayib/tralala-trilili" target="_blank">Hugging Face</a> only when it passes a validation gate; the <a href="https://tralala-trilili.streamlit.app" target="_blank">Streamlit app</a> picks up the latest model without redeploying.</p>
+    </div>
+</div>
+<div class="d-flex flex-column flex-md-row align-items-start mb-4">
     <img src="static/assets/img/agentic-ai.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
     <div>
         <h3 class="mt-0 h5">Personal AI-Agentic Workflow</h3>
