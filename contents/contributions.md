@@ -95,6 +95,6 @@
 ## Music
 <hr>
 
-- <a href="https://music.apple.com/za/artist/nabila-hafsya-zahirah/1686431739" target="_blank">Nabila Hafsya Zahirah. Syukurku</a> (Producer) 
-- <a href="https://www.instagram.com/onefifty.band/" target="_blank">Band Performer One Fifty Music</a> (Guitarist & Director)
+- <a href="https://www.youtube.com/playlist?list=PLC8qI9WBchPTgW3tSvMvLMYx8SAbPeUm_" target="_blank">Nabila Hafsya Zahirah. Syukurku</a> (Producer) 
+- <a href="http://omayib.github.io/onefifty" target="_blank">Band Performer One Fifty Music</a> (Guitarist & Director)
 - <a href="https://youtube.com/playlist?list=PLC8qI9WBchPQPN7p2AUj6SsuONUA99IMC&si=l8ACTsEccvy0Euuw" target="_blank">Solo guitarist content creator</a>(Artist)
