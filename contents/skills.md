@@ -1,13 +1,13 @@
 #### Machine Learning for Music
 - Fine-tuning symbolic music LLMs: adapted MIDI-LLM (Llama 3.2 1B) with **LoRA** to generate chiptune game music from text prompts, validated with objective musical-feature comparison and listening tests ([released on Hugging Face](https://huggingface.co/omayib/Llama-3.2-1B-Chiptune-MIDI)).
-- Built and shipped a Transformer/BERT-based **game music engine** in Python, distributed on PyPI, powering [Crafting Beat](https://craftingbeat.com).
+- Built and shipped a Transformer/BERT-based **game music engine** in Python, distributed on PyPI, powering [Crafting Beat](https://omayib.github.io/BeatCraft).
 - Research across the music AI stack: melody generation in ABC notation with logits processing, deep-learning gamelan source separation, song popularity prediction from lyrics, and podcast recommendation.
 - Funded research on a **multi-agent generative adaptive music platform** for game production (Kemdiktisaintek, 2024); doctoral research in Deep Learning for Music at Universitas Gadjah Mada.
 - Practising musician — producer, guitarist, and band director — bringing a musician's ear to model evaluation.
 
 #### AI Automation & Agentic Workflows
 - Designed a hybrid **multi-model agentic workflow** that routes heavy reasoning to cloud LLMs (DeepSeek) and private tasks to local models (Llama 3, Qwen, Gemma) via Ollama — POS monitoring, FTP deployment, GitHub hooks.
-- Built **RAG** products ([Hizara Chat Agent](https://omayib.github.io/hizara/)) that turn content libraries into chat-style navigation.
+- Built **RAG** products ([Hizara Chat Agent](https://omayib.github.io/zara/)) that turn content libraries into chat-style navigation.
 - Digitalized and automated university business processes with Google Apps Script, Google Sheets, and AI: personalized mailers, multi-stakeholder approvals, QR-code document approval, digital thesis logbooks.
 
 #### Business & Product Leadership

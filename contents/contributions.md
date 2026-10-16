@@ -17,7 +17,7 @@
 <div class="d-flex flex-column flex-md-row align-items-start mb-4">
     <img src="static/assets/img/beatcraft.webp" alt="Crafting Beat" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
     <div>
-        <h3 class="mt-0 h5">Founder of <a href="https://craftingbeat.com" target="_blank">www.craftingbeat.com</a></h3>
+        <h3 class="mt-0 h5">Founder of <a href="https://omayib.github.io/BeatCraft" target="_blank">https://omayib.github.io/BeatCraft/</a></h3>
         <ul>
             <li>An AI-powered system that creates signature game music, allowing developers to focus solely on coding without worrying about sound design.</li>
             <li>As AI Engineer, I built a state-of-the-art music engine from the ground up using Python, distributed it via PyPi, and integrated advanced pre-trained models like Transformer and BERT.</li>
@@ -28,7 +28,7 @@
 <div class="d-flex flex-column flex-md-row align-items-start mb-4">
     <img src="static/assets/img/hizarainfloating.webp" alt="Hizara Chat Agent" class="img-fluid rounded shadow me-4 mb-3 mb-md-0" style="width: 175px; object-fit: cover;">
     <div>
-        <h3 class="mt-0 h5">Founder of <a href="https://omayib.github.io/hizara/" target="_blank">Hizara Chat Agent</a></h3>
+        <h3 class="mt-0 h5">Founder of <a href="https://omayib.github.io/zara/" target="_blank">Hizara Chat Agent</a></h3>
         <ul>
             <li>A Retrieval Augmented Generation (RAG) plugin that streamlines website navigation with effortless, chat-style functionality. Instead of forcing users to click through multiple pages, Hizara instantly pulls relevant answers from your content library.</li>
             <li>As AI Engineer, I engineered the Zara-chat WordPress plugin from scratch in PHP, featuring configurable options that allow integration of powerful models such as BERT and Transformer through APIs.</li>
