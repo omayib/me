@@ -288,18 +288,25 @@
 <script>
         document.addEventListener("DOMContentLoaded", function() {
             const mediumFeedUrl = 'https://medium.com/feed/@akbarul';
-            // Use rss2json proxy service to circumvent CORS limitations
+            // Primary source: contents/medium.json, refreshed by the "Update Medium feed" GitHub Action.
+            // Fallback: rss2json proxy, in case the local file is missing.
             const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(mediumFeedUrl)}`;
 
-            fetch(proxyUrl)
+            const loadFeed = url => fetch(url)
                 .then(response => {
                     if (!response.ok) throw new Error('Network response was not ok');
                     return response.json();
                 })
                 .then(data => {
-                    if (data.status !== 'ok' || !data.items || data.items.length === 0) {
+                    if ((data.status && data.status !== 'ok') || !data.items || data.items.length === 0) {
                         throw new Error('Invalid feed data structure');
                     }
+                    return data;
+                });
+
+            loadFeed('contents/medium.json')
+                .catch(() => loadFeed(proxyUrl))
+                .then(data => {
 
                     let htmlContent = '<div class="row">';
                     
@@ -317,7 +324,9 @@
                         const tempDiv = document.createElement('div');
                         tempDiv.innerHTML = item.description;
                         const plainTextSnippet = tempDiv.textContent || tempDiv.innerText || "";
-                        const shortDescription = plainTextSnippet.substring(0, 160) + '...';
+                        const shortDescription = plainTextSnippet.length > 160
+                            ? plainTextSnippet.substring(0, 160) + '...'
+                            : plainTextSnippet;
 
                         htmlContent += `
                             <div class="col-12 mb-4">
