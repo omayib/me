@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Finding a Racket in a Wrist Sensor",
+      "link": "https://akbarul.medium.com/finding-a-racket-in-a-wrist-sensor-fd1914a524d3?source=rss-126dfc94b07e------2",
+      "pubDate": "Tue, 20 Oct 2026 01:29:06 GMT",
+      "author": "Arif Akbarul Huda",
+      "description": "I play badminton once a week, without a coach. In two years I have not improved. I did not know the techniques, and I naively thought all rackets were the same...."
+    },
+    {
       "title": "3 Crazy Ways I Use an AI Agent as a Lecture",
       "link": "https://akbarul.medium.com/3-crazy-ways-i-use-an-ai-agent-as-a-lecture-2de159252b7e?source=rss-126dfc94b07e------2",
       "pubDate": "Sat, 06 Jun 2026 04:49:52 GMT",
@@ -13,13 +20,6 @@
       "pubDate": "Sat, 06 Jun 2026 03:08:39 GMT",
       "author": "Arif Akbarul Huda",
       "description": "As a freelancer trying to build a custom AI agent using the Hermes framework, the financial reality sets in fast. Paid API subscriptions are completely out of t..."
-    },
-    {
-      "title": "Similarity in Scale, The Fundamental Principle of Transformer Architecture",
-      "link": "https://akbarul.medium.com/similarity-in-scale-the-fundamental-principle-of-transformer-architecture-f001216cdcca?source=rss-126dfc94b07e------2",
-      "pubDate": "Mon, 25 May 2026 17:07:00 GMT",
-      "author": "Arif Akbarul Huda",
-      "description": "This is the documentation of my journey learning the math behind the Transformer. I was especially fascinated by one formula: the matrix multiplication between ..."
     }
   ]
 }
