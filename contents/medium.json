@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Will Your Lyrics Go Viral? Probably Not the Way You Think",
+      "link": "https://akbarul.medium.com/will-your-lyrics-go-viral-probably-not-the-way-you-think-2c80db6402d0?source=rss-126dfc94b07e------2",
+      "pubDate": "Sat, 24 Oct 2026 08:49:17 GMT",
+      "author": "Arif Akbarul Huda",
+      "description": "Tralala-Trilili is a free web app that estimates how popular an Indonesian song’s lyrics are likely to be. It started with a paper published in JAIC . The paper..."
+    },
+    {
       "title": "Finding a Racket in a Wrist Sensor",
       "link": "https://akbarul.medium.com/finding-a-racket-in-a-wrist-sensor-fd1914a524d3?source=rss-126dfc94b07e------2",
       "pubDate": "Tue, 20 Oct 2026 01:29:06 GMT",
@@ -13,13 +20,6 @@
       "pubDate": "Sat, 06 Jun 2026 04:49:52 GMT",
       "author": "Arif Akbarul Huda",
       "description": "As a Computer Science lecturer in Indonesia, my responsibilities extend far beyond the four walls of a classroom. The academic crown is heavy, worn with a mix o..."
-    },
-    {
-      "title": "Building an AI Agent, But API Limits Forced Me Local",
-      "link": "https://akbarul.medium.com/building-an-ai-agent-but-api-limits-forced-me-local-da535d30bcda?source=rss-126dfc94b07e------2",
-      "pubDate": "Sat, 06 Jun 2026 03:08:39 GMT",
-      "author": "Arif Akbarul Huda",
-      "description": "As a freelancer trying to build a custom AI agent using the Hermes framework, the financial reality sets in fast. Paid API subscriptions are completely out of t..."
     }
   ]
 }
