@@ -55,6 +55,7 @@ window.addEventListener('DOMContentLoaded', event => {
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
+                if (name === 'activities') updateActivityStatus();
             }).then(() => {
                 // MathJax
                 MathJax.typeset();
@@ -63,3 +64,29 @@ window.addEventListener('DOMContentLoaded', event => {
     })
 
 }); 
+
+
+// Label each activity as Upcoming / Ongoing / Done based on today's date.
+// Markup: <span class="activity-status" data-start="YYYY-MM-DD" data-end="YYYY-MM-DD"></span>
+function updateActivityStatus() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const toDate = str => {
+        const [y, m, d] = str.split('-').map(Number);
+        return new Date(y, m - 1, d);
+    };
+    document.querySelectorAll('.activity-status').forEach(el => {
+        const start = toDate(el.dataset.start);
+        const end = toDate(el.dataset.end || el.dataset.start);
+        let label, cls, icon;
+        if (today < start) {
+            label = 'Upcoming'; cls = 'bg-primary'; icon = 'bi-clock';
+        } else if (today > end) {
+            label = 'Done'; cls = 'bg-secondary'; icon = 'bi-check-circle';
+        } else {
+            label = 'Ongoing'; cls = 'bg-success'; icon = 'bi-broadcast';
+        }
+        el.className = `activity-status badge rounded-pill ${cls} ms-2 align-middle`;
+        el.innerHTML = `<i class="bi ${icon}"></i> ${label}`;
+    });
+}
