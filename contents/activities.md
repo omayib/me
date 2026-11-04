@@ -10,3 +10,8 @@
 - <i class="bi bi-mic"></i> **Speaker @ Python Conference Yogyakarta** <span class="activity-status" data-start="2026-12-05" data-end="2026-12-05"></span>\
   *"LLM Bisa Mengerti Percakapan, Bagaimana Jika Diajari Musik?"*\
   Hosted by PYJO · 5 December 2026
+
+#### Earlier
+- <i class="bi bi-mic"></i> **Speaker @ Meet & Talk YOGYAKOMTEK** · *Redefine Creativity in Generative AI Era* · Yogyakarta, 2025
+- <i class="bi bi-mic"></i> **Speaker @ Python Meetup Community** · *Python for Music – When Python Meets Hobby* · Yogyakarta, 2024
+- <i class="bi bi-people"></i> **Mentor @ Inkubasi Koperasi** · *Pembuatan SOP dan SOM untuk Sustainable Business* · ABP Inkubator, Yogyakarta, 2024

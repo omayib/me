@@ -75,13 +75,6 @@
     </div>
 </div>
 
-## Speakers
-<hr>
-
-- Speakers @ Meet & Talk YOGYAKOMTEK. Redefine Creativity in Generative AI Era. Yogyakarta. 2025.
-- Speakers @ Python Meetup Community. Python for Music - When Python meet Hobby. Yogyakarta. 2024.
-- Mentor @ Inkubasi Koperasi. Pembuatan SOP dan SOM untuk Sustainable Business. ABP Inkubator, Yogyakarta. 2024.
-
 ## Content Creator in Tech.
 <hr>
 
