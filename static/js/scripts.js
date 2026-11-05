@@ -88,5 +88,18 @@ function updateActivityStatus() {
         }
         el.className = `activity-status badge rounded-pill ${cls} ms-2 align-middle`;
         el.innerHTML = `<i class="bi ${icon}"></i> ${label}`;
+        el.dataset.rank = label === 'Upcoming' ? 0 : label === 'Ongoing' ? 1 : 2;
     });
+
+    // Reorder: Upcoming (soonest first), then Ongoing, then Done (most recent first).
+    const ul = document.querySelector('#activities-md ul');
+    if (!ul) return;
+    const items = [...ul.children].filter(li => li.querySelector('.activity-status'));
+    items.sort((a, b) => {
+        const sa = a.querySelector('.activity-status'), sb = b.querySelector('.activity-status');
+        const r = sa.dataset.rank - sb.dataset.rank;
+        if (r) return r;
+        const da = sa.dataset.start, db = sb.dataset.start;
+        return sa.dataset.rank == 2 ? db.localeCompare(da) : da.localeCompare(db);
+    }).forEach(li => ul.appendChild(li));
 }
